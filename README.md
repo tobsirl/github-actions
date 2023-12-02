@@ -21,3 +21,11 @@ Continuous Delivery is the practice of automating the release of software so tha
 ### Workflows
 
 A workflow is a configurable automated process made up of one or more jobs. You must create a YAML file to define your workflow configuration. The file must be named `main.yml` and placed in the `.github/workflows` directory of your repository.
+
+### Jobs
+
+A job is a set of steps that execute on the same runner. By default, a workflow with multiple jobs will run those jobs in parallel. You can also configure a workflow to run jobs sequentially.
+
+### Steps
+
+A step is an individual task that can run commands in a job. A step can be either an action or a shell command. Each step in a job executes on the same runner, allowing the actions in that job to share data with each other.
