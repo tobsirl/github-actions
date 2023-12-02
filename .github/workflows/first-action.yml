@@ -8,3 +8,8 @@ jobs:
         run: echo "Hello, world!"
       - name: Print Goodbye
         run: echo "Goodbye, world!"
+      - name: Multi-line steps
+        run: |
+          echo "This is line 1"
+          echo "This is line 2"
+          echo "This is line 3"
