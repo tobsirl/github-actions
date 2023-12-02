@@ -15,3 +15,9 @@ Continuous Integration is the practice of merging all developers' working copies
 ### Continuous Delivery
 
 Continuous Delivery is the practice of automating the release of software so that it can be released at any time. It is a software development practice where code changes are automatically prepared for a release to production.
+
+## GitHub Actions Fundamentals
+
+### Workflows
+
+A workflow is a configurable automated process made up of one or more jobs. You must create a YAML file to define your workflow configuration. The file must be named `main.yml` and placed in the `.github/workflows` directory of your repository.
