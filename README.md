@@ -29,3 +29,7 @@ A job is a set of steps that execute on the same runner. By default, a workflow 
 ### Steps
 
 A step is an individual task that can run commands in a job. A step can be either an action or a shell command. Each step in a job executes on the same runner, allowing the actions in that job to share data with each other.
+
+### Events (Workflow Triggers)
+
+Events are specific activities that trigger a workflow. For example, activity such as creating a pull request or pushing to a repository can trigger a workflow. You can configure a workflow to run when a specific event occurs in your repository.
