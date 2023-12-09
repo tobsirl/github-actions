@@ -33,3 +33,7 @@ A step is an individual task that can run commands in a job. A step can be eithe
 ### Events (Workflow Triggers)
 
 Events are specific activities that trigger a workflow. For example, activity such as creating a pull request or pushing to a repository can trigger a workflow. You can configure a workflow to run when a specific event occurs in your repository.
+
+### Actions
+
+Actions are standalone commands that are combined into steps to create a job. Actions are the smallest portable building block of a workflow. You can create your own actions, or use actions created by the GitHub community.
